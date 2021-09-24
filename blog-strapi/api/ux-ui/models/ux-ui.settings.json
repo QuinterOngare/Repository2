@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ux_uis",
+  "info": {
+    "name": "UX/UI"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    }
+  }
+}
